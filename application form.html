@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Altschool Sign-up</title>
+</head>
+<link rel="stylesheet" href="style.css"  />
+<body>
+    <nav>
+        <a href="./index.html">Click here to go to about page</a>
+      </nav>
+    <header>
+        <h1>Application Form</h1>
+        <P>Fill in your details</P>
+    </header>
+<main>
+    <form action="">
+        <label for="first name">first name&#42</label>
+        <input type="text" placeholder="Enter your first name" required >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Last name">Last name&#42</label>
+        <input type="text" placeholder="Enter your last name" required ><br>
+        <br>
+        <label for="gender-select">Gender&#42</label>
+        <select name="Gender" id="gender-select" required>
+            <option value="gender-select">Gender</option>  
+            <option value="Male">Male</option> 
+            <option value="Female">Female</option> 
+            <option value="others">Non-disclosure</option>   
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <label for="D.o.b">Date of birth&#42</label>
+        <input type="date" id="Date of birth" ><br>
+        <br>
+        <label for="email">enter your email&#42</label>
+        <input type="text" placeholder="Enter your email" required ><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+
+        <label for="education level">education level&#42</label>
+        <select name="level of education" id="qualification">
+        <option value="pry">primary</option> 
+        <option value="sec">O-level</option> 
+        <option value="tert">tertiary</option> 
+        </select>
+        <br>
+        <br>
+        <label for="country">select your country&#42</label>
+        <select name="country-select" id="country">
+            <option value="AF">Afghanistan</option>
+            <option value="AL">Albania</option>
+            <option value="DZ">Algeria</option>
+            <option value="AD">Andorra</option>
+            <option value="AO">Angola</option>
+            <option value="AR">Argentina</option>
+            <option value="AM">Armenia</option>
+            <option value="AU">Australia</option>
+            <option value="AT">Austria</option>
+            <option value="AZ">Azerbaijan</option>
+            <option value="GH">Ghana</option>
+            <option value="KY">Kenya</option>
+            <option value="NG">Nigeria</option>
+            <option value="RU">Russia</option>
+            <option value="GB">United Kingdom</option>
+            <option value="US">United States</option>
+            <option value="UY">Uruguay</option>
+            <option value="UZ">Uzbekistan</option>
+            <option value="VE">Venezuela</option>
+            <option value="VN">Vietnam</option>
+            <option value="YE">Yemen</option>
+            <option value="ZA">South Africa</option>
+            <option value="ZM">Zambia</option>
+            <option value="ZW">Zimbabwe</option>
+        </select>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        <label for="state">Select your Nigerian state&#42</label>
+        <select id="state" name="state">
+            <option value="Abia">Abia</option>
+            <option value="Adamawa">Adamawa</option>
+            <option value="Akwa_Ibom">Akwa Ibom</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Bauchi">Bauchi</option>
+            <option value="Bayelsa">Bayelsa</option>
+            <option value="Benue">Benue</option>
+            <option value="Borno">Borno</option>
+            <option value="Cross_River">Cross River</option>
+            <option value="Delta">Delta</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Edo">Edo</option>
+            <option value="Ekiti">Ekiti</option>
+            <option value="Enugu">Enugu</option>
+            <option value="Gombe">Gombe</option>
+            <option value="Imo">Imo</option>
+            <option value="Jigawa">Jigawa</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Kano">Kano</option>
+            <option value="Katsina">Katsina</option>
+            <option value="Kebbi">Kebbi</option>
+            <option value="Kogi">Kogi</option>
+            <option value="Kwara">Kwara</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Nasarawa">Nasarawa</option>
+            <option value="Niger">Niger</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Ondo">Ondo</option>
+            <option value="Osun">Osun</option>
+            <option value="Oyo">Oyo</option>
+            <option value="Plateau">Plateau</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Sokoto">Sokoto</option>
+            <option value="Taraba">Taraba</option>
+            <option value="Yobe">Yobe</option>
+            <option value="Zamfara">Zamfara</option>
+            <option value="FCT">Federal Capital Territory (FCT)</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        <br>
+        <label for="employment">Select your employment status:</label>
+        <select id="employment" name="employment">
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="student">Student</option>
+            <option value="self-employed">Self-Employed</option>
+            <option value="retired">Retired</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        <br>
+        <br>
+        <label for="school">Choose school:</label>
+        <select id="school" name="school">
+            <option value="school">Select school</option>
+            <option value="school1">School of Engineering</option>
+            <option value="school2">School of Product</option>
+            <option value="school3">School of Data</option>
+        </select>
+        <br>
+        <br>
+        <label for="course-select">Choose course of study&#42:</label>
+        <select id="course-select" name="course">
+            <option value="course">Select course</option>
+            <option value="coutse1">Cloud Engineering</option>
+            <option value="course2">Front-end Engineering</option>
+            <option value="course3">Back-end Engineering</option>
+            <option value="course4">Data Analysis</option>
+            <option value="course5">Data Engineering</option>
+            <option value="course6">Data science</option>
+            <option value="course7">Product design</option>
+            <option value="course8">Product Management</option>
+            <option value="course9">Product Marketing</option>
+           </select>
+            <br>
+            <br>
+        <label for="visibility">How did you hear about us?:</label>
+        <select id="visibility" name="platform">
+            <option value="platform">select channel</option>
+            <option value="platform">word of mouth</option>
+            <option value="platform">facebook</option>
+            <option value="platform">twitter</option>
+            <option value="platform">instagram</option>
+            <option value="platform">linkedin</option>
+            <option value="platform">Youtube</option>
+           </select>
+           <br>
+           <br>
+           <label for="scholarship">Scholarship Discount Code (optional):</label>
+           <input type="text" id="scholarship-code" name="scholarship" placeholder="scholarship-code">
+           <br>
+           <br>
+        <div>
+            By clicking continue, I agree to <a href="#"> Terms of Use</a> and acknowledge that I have
+            read the <a href="#">Privacy Policy.</a>
+          </div>
+          <br>
+        <button>proceed</button>
+
+
+    </form>
+
+
+</main>
+    
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
